@@ -40,6 +40,7 @@ const thoughtController = {
       )
       .catch((err) => res.status(500).json(err));
   },
+  //update a thought
   updateThought(req, res) {
     Thought.findOneAndUpdate(
       { _id: req.params.thoughtId },
@@ -52,6 +53,10 @@ const thoughtController = {
           : res.json(user)
       )
       .catch((err) => res.status(500).json(err));
+  },
+  //delete a thought
+  deleteThought(req, res) {
+    Thought.findOneAndDelete({ _id: req.params.thoughtId });
   },
 };
 
