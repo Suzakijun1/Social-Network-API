@@ -4,7 +4,7 @@ const {
   getThoughts,
   getSingleThought,
   createThought,
-  //   updateThought,
+  updateThought,
   //   deleteThought,
   //   createReaction,
   //   deleteReaction,
@@ -14,8 +14,7 @@ const {
 router.route("/").get(getThoughts).post(createThought);
 
 // /api/thoughts/:thoughtId GET one thought, PUT and DELETE by id
-router.route("/:thoughtId").get(getSingleThought);
-//   .put(updateThought)
+router.route("/:thoughtId").get(getSingleThought).put(updateThought);
 //   .delete(deleteThought);
 
 // /api/thoughts/:thoughtId/reactions POST new reactions
