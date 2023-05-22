@@ -6,7 +6,19 @@ This is an API for a social network web application that allows users to share t
 
 ## Installation
 
-Clone the repository.
+- Clone the repository.
+- On Visual Studio Code, install the dependencies by typing "npm install" in the terminal. This will install Express.js and Mongoose.
+- Open MongoDB and connect to the MongoDB URI "mongodb://localhost:27017"
+- To start the application, run "npm start"
+- To create seed data and test the API routes, use Insomnia or Postman.
+
+## Screenshots
+
+![My Image](images/InsomniaPic.png)
+
+## Video Demonstration
+
+Here is a link to a video that demonstrates the functionality of the application.
 
 ## Author
 
