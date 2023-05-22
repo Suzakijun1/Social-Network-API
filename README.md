@@ -15,6 +15,7 @@ This is an API for a social network web application that allows users to share t
 ## Screenshots
 
 ![My Image](images/InsomniaPic.png)
+![My Image](images/MongoDB-image.png)
 
 ## Video Demonstration
 
