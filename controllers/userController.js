@@ -36,7 +36,7 @@ module.exports = {
       { runValidators: true, new: true }
     )
       .then((response) => {
-        console.log(response);
+        // console.log(response);
         !response
           ? res.status(404).json({ message: "No User found with that ID!" })
           : res.json(response);
